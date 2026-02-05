@@ -67,6 +67,5 @@ public class Product {
 
     float calculateFinalPrice() {
         return priceAfterDiscount()+calculateStateTax()+calculateCentralTax() + shippingCharges;
-
     }
 }
