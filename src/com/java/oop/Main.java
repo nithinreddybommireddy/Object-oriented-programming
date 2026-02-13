@@ -5,7 +5,6 @@ public class Main {
         Product product1;
         product1 = new Product();
 
-
         /*System.out.println("----------------------------------------------");
         System.out.println(" ");
         System.out.println("Product ID : " + product1.id);
@@ -55,7 +54,7 @@ public class Main {
                 product2.centralTax);
 
         System.out.println("--------------------------------------------------------------------------------");*/
-        Product product3=new Product();
+        Product product3 =new Product();
         product3.displayProduct();
 
     }
