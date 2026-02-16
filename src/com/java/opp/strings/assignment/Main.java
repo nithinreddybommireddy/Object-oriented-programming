@@ -1,9 +1,7 @@
 package com.java.opp.strings.assignment;
 
-
 import java.util.HashSet;
 import java.util.Iterator;
-
 public class Main {
     public static void main(String[] args) {
         String[] productsData = {
@@ -17,6 +15,7 @@ public class Main {
                 "prod-108,Sony Bravia 43inch TV,52999.00,11.5",
                 "prod-109,LG Double Door Refrigerator,38999.00,13.0",
                 "prod-110,Canon EOS 1500D Camera,41999.00,6.5"
+
         };
         ProductService productService = new ProductService();
 
@@ -26,6 +25,5 @@ public class Main {
         while(productIterator.hasNext()){
             productService.displayProductDetails(productIterator.next());
         }
-
     }
 }
