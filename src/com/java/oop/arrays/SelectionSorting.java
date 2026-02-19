@@ -16,7 +16,6 @@ public class SelectionSorting {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-
         for (int i = 0; i < size - 1; i++) {
             int min = i;
             for (int j = i + 1; j < size; j++) {
