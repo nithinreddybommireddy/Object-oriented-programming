@@ -8,7 +8,7 @@ public class Order {
 
     private String id;
     private String customerName;
-    private HashSet<Product> products;
+    private HashSet<Product>  products;
     private String status;
 
     public Order() {
