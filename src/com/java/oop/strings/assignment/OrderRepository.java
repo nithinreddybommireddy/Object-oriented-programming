@@ -65,7 +65,7 @@ public class OrderRepository {
 
         while (iterator.hasNext()) {
 
-            Order existingOrder = iterator.next();
+            Order  existingOrder = iterator.next();
 
             if (existingOrder.getId().equals(id)) {
                 iterator.remove();
