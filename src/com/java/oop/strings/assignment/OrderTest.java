@@ -63,7 +63,7 @@ public class OrderTest {
 
         // -------- Get Order By Id --------
         System.out.println("-----Get order by id : order - 103----");
-        Order byId = orderRepository.getById("order-103");
+        Order byId =  orderRepository.getById("order-103");
         System.out.println(byId);
 
         System.out.println("----------Get order by id: order-110---------");
