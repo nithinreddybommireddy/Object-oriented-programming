@@ -14,7 +14,7 @@ public class Main {
                 "prod-107,Boat Rockerz Headphones,2999.00,15.0",
                 "prod-108,Sony Bravia 43inch TV,52999.00,11.5",
                 "prod-109,LG Double Door Refrigerator,38999.00,13.0",
-                "prod-110,Canon EOS 1500D Camera,41999.00,6.5"
+                "prod-110,Canon EOS 1500D Camera,41999.00,6.4"
 
         };
         ProductService productService = new ProductService();
