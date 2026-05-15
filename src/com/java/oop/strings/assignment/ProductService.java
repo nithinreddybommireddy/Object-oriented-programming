@@ -15,7 +15,6 @@ public class ProductService {
     HashSet<Product> getProducts(String[] productsData) {
 
         for (String productData : productsData) {
-            // System.out.println(productData);
             String[] split = productData.split(",");
             Product product = new Product();
             product.setId(split[0]);
@@ -28,9 +27,6 @@ public class ProductService {
 
     }
 
-    //double calculateFinalPrice(double MRP, float discountPercentage){
-    //  return MRP - (MRP * discountPercentage / 100);
-    //}
     double calculateFinalPrice(Product product) {
         return product.getMRP() - (product.getMRP() * product.getDiscountPercentage() / 100);
     }
