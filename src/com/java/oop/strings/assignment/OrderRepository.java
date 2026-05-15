@@ -88,7 +88,7 @@ public class OrderRepository {
                 System.out.printf("%-10s %-30s %-10.2f %-15.2f%n",
                         product.getId(),
                         product.getName(),
-                        product.getMRP(),
+                        product.getPrice(),
                         product.getDiscountPercentage());
             }
         }
